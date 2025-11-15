@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.example.sistemaestudiantila1945.Boton21Estilizado?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sistemaestudiantila1945.MainSceneController">
+   <children>
+      <Label text="Sistema de Estudiantes">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label text="Gestiona tus estudiantes de forma sencilla">
+         <padding>
+            <Insets bottom="20.0" top="20.0" />
+         </padding>
+      </Label>
+      <HBox prefHeight="309.0" prefWidth="560.0">
+         <children>
+            <VBox prefHeight="250.0" prefWidth="262.0">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="267.0" text="Agregar Estudiante" />
+                  <Label text="Nombre">
+                     <padding>
+                        <Insets top="15.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="nombreTextField" onAction="#validarNombre" onKeyReleased="#validarNombre" />
+                  <Label text="Carrera">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <ChoiceBox fx:id="carreraChoiceBox" prefWidth="150.0" />
+                  <Label text="Matricula">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="matriculaTextField" onKeyReleased="#validarMatricula" />
+                  <Label text="Semestre">
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="semestreTextField" onKeyReleased="#validarSemestre" />
+                  <Label text="Promedio">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="promedioTextField" onKeyReleased="#validarPromedio" />
+               </children>
+            </VBox>
+            <TableView fx:id="estudiantesTableView" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="450.0">
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </TableView>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Boton21Estilizado fx:id="submitButton" onAction="#agregarEstudiante" prefHeight="26.0" prefWidth="106.0" text="Submit" />
+            <Button fx:id="borrarButton" mnemonicParsing="false" onAction="#borrarEstudiante" text="Borrar">
+               <HBox.margin>
+                  <Insets left="250.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="actualizarButton" mnemonicParsing="false" onAction="#actualizarEstudiante" text="Actualizar">
+               <HBox.margin>
+                  <Insets left="200.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

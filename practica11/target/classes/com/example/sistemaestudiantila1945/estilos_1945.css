@@ -1,0 +1,13 @@
+/* Dentro de estilos_1945.css */
+
+.boton-bonito {
+    -fx-background-color: #4CAF50; /* Un verde bonito */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px; /* Bordes redondos */
+}
+
+/* Un estilo para cuando pones el mouse encima */
+.boton-bonito:hover {
+    -fx-background-color: #45a049;
+}
