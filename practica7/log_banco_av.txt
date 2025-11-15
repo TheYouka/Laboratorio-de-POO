@@ -1,0 +1,30 @@
+2025-11-04T13:47:23.656339509 | --- Log iniciado por Alberto Vazquez (1945) ---
+2025-11-04T13:47:23.661224977 | ÉXITO: Retiro de 500.0 por Alberto1945
+2025-11-04T13:47:23.664148996 | FALLA (Saldo): Saldo insuficiente. Tienes 1500.0 e intentas retirar 3000.0
+2025-11-04T13:47:23.664450449 | FALLA (Usuario): El usuario UsuarioFalso no existe.
+2025-11-04T13:47:23.664497151 | --- Log finalizado ---
+2025-11-04T13:51:00.443246429 | --- Log iniciado por Alberto Vazquez (1945) ---
+2025-11-04T13:51:00.449089529 | ÉXITO: Retiro de 500.0 por Alberto1945
+2025-11-04T13:51:00.452673963 | FALLA (Saldo): Saldo insuficiente. Tienes 1500.0 e intentas retirar 3000.0
+2025-11-04T13:51:00.453052997 | FALLA (Usuario): El usuario UsuarioFalso no existe.
+2025-11-04T13:51:00.453096933 | --- Log finalizado ---
+2025-11-04T15:58:42.880968384 | --- Log iniciado por Alberto Vazquez (1945) ---
+2025-11-04T15:58:42.887606666 | ÉXITO: Retiro de 500.0 por Alberto1945
+2025-11-04T15:58:42.891997709 | FALLA (Saldo): Saldo insuficiente. Tienes 1500.0 e intentas retirar 3000.0
+2025-11-04T15:58:42.892449276 | FALLA (Usuario): El usuario UsuarioFalso no existe.
+2025-11-04T15:58:42.892503535 | --- Log finalizado ---
+2025-11-15T08:12:43.079101667 | --- Log iniciado por Alberto Vazquez (1945) ---
+2025-11-15T08:12:43.082987164 | ÉXITO: Retiro de 500.0 por Alberto1945
+2025-11-15T08:12:43.085574284 | FALLA (Saldo): Saldo insuficiente. Tienes 1500.0 e intentas retirar 3000.0
+2025-11-15T08:12:43.085898069 | FALLA (Usuario): El usuario UsuarioFalso no existe.
+2025-11-15T08:12:43.085937193 | --- Log finalizado ---
+2025-11-15T08:14:14.991070903 | --- Log iniciado por Alberto Vazquez (1945) ---
+2025-11-15T08:14:14.994613913 | ÉXITO: Retiro de 500.0 por Alberto1945
+2025-11-15T08:14:14.996961263 | FALLA (Saldo): Saldo insuficiente. Tienes 1500.0 e intentas retirar 3000.0
+2025-11-15T08:14:14.997220457 | FALLA (Usuario): El usuario UsuarioFalso no existe.
+2025-11-15T08:14:14.997250991 | --- Log finalizado ---
+2025-11-15T08:14:38.478212495 | --- Log iniciado por Alberto Vazquez (1945) ---
+2025-11-15T08:14:38.481817891 | ÉXITO: Retiro de 500.0 por Alberto1945
+2025-11-15T08:14:38.484735045 | FALLA (Saldo): Saldo insuficiente. Tienes 1500.0 e intentas retirar 3000.0
+2025-11-15T08:14:38.485202395 | FALLA (Usuario): El usuario UsuarioFalso no existe.
+2025-11-15T08:14:38.485260922 | --- Log finalizado ---
